@@ -41,10 +41,10 @@
     <!-- include the XQuery Library modules written in XQuery from this project -->
     <xquerySets>
         <xquerySet>
-            <namespace>https://exist-db.org/exist-db/ns/app/mysql</namespace>
+            <namespace>https://exist-db.org/exist-db/ns/app/ojdbc10</namespace>
             <directory>${basedir}/src/main/xquery</directory>
             <includes>
-                <include>mysql-module.xqm</include>
+                <include>ojdbc10-module.xqm</include>
             </includes>
             <outputDirectory>content</outputDirectory>
         </xquerySet>
@@ -57,10 +57,9 @@
             <artifactId>${project.artifactId}</artifactId>
             <version>${project.version}</version>
         </dependencySet>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependencySet>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc10</artifactId>
             <version>${project.version}</version>
         </dependencySet>
     </dependencySets>

@@ -12,12 +12,12 @@
     </parent>
 
     <groupId>org.exist-db</groupId>
-    <artifactId>exist-mysql-jdbc-driver</artifactId>
-    <version>8.0.29</version>
+    <artifactId>exist-ojdbc10-jdbc-driver</artifactId>
+    <version>19.14.0.0</version>
 
-    <name>MySQL JDBC Driver</name>
-    <description>MySQL JDBC Driver for eXist-db</description>
-    <url>https://exist-db.org/exist-db/jdbc/mysql</url>
+    <name>Oracle JDBC 10 Driver</name>
+    <description>Oracle JDBC 10 Driver for eXist-db</description>
+    <url>https://exist-db.org/exist-db/jdbc/ojdbc10</url>
 
     <organization>
         <name>eXist-db</name>
@@ -62,8 +62,8 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc10</artifactId>
             <version>${project.version}</version>
         </dependency>
 

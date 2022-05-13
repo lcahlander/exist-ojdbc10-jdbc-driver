@@ -1,6 +1,6 @@
-# MySQL JDBC Driver for eXist-db
+# Oracle JDBC 10 Driver for eXist-db
 
-Loadable JDBC Driver for MySQL within eXist-db.
+Loadable JDBC Driver for Oracle within eXist-db.
 
 The version number of this package mirrors the version number
 of the actual JDBC jar file and is updated through the dependabot
