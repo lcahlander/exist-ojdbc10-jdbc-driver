@@ -33,14 +33,14 @@
     </licenses>
 
     <scm>
-        <url>https://www.github.com/eXist-db/exist-mysql-jdbc-driver.git</url>
-        <connection>scm:git:https://www.github.com/eXist-db/exist-mysql-jdbc-driver.git</connection>
-        <developerConnection>scm:git:https://www.github.com/eXist-db/exist-mysql-jdbc-driver.git</developerConnection>
+        <url>https://www.github.com/eXist-db/exist-ojdbc10-jdbc-driver.git</url>
+        <connection>scm:git:https://www.github.com/eXist-db/exist-ojdbc10-jdbc-driver.git</connection>
+        <developerConnection>scm:git:https://www.github.com/eXist-db/exist-ojdbc10-jdbc-driver.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://www.github.com/eXist-db/exist-mysql-jdbc-driver/issues</url>
+        <url>https://www.github.com/eXist-db/exist-ojdbc10-jdbc-driver/issues</url>
     </issueManagement>
 
     <properties>
@@ -51,7 +51,7 @@
         <exist.version>6.0.1</exist.version>
 
         <!-- used in the EXPath Package Descriptor -->
-        <package-name>https://exist-db.org/exist-db/jdbc/mysql</package-name>
+        <package-name>https://exist-db.org/exist-db/jdbc/ojdbc10</package-name>
     </properties>
 
     <dependencies>
@@ -60,7 +60,6 @@
             <artifactId>exist-core</artifactId>
             <version>${exist.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc10</artifactId>
