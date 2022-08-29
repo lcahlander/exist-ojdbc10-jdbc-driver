@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-ojdbc10-jdbc-driver</artifactId>
-    <version>19.15.0.0.1</version>
+    <version>19.16.0.0</version>
 
     <name>Oracle JDBC 10 Driver</name>
     <description>Oracle JDBC 10 Driver for eXist-db</description>
